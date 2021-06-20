@@ -27,7 +27,7 @@ body h1{
 }
 
 
-#list{
+#container{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;  
@@ -55,34 +55,38 @@ body h1{
     font-size: 20px;
 }
 
-#invitelist{
+#list{
     
-    margin-top: 2.5em;
-    /* border: 1px solid #eee; */
+    margin-top: 2em;
     position: absolute;
     list-style-type: none;
-    display:flex;  
-
-   
+    display: block;
+    font-size: 20px;
+  
 }
 
 
 
-
-#invitelist .fa-check-circle {
-    background-color: rgb(0, 122, 37);
+.fa-trash-alt  {
+   
     border-radius: 15%;
-    color: white;
-    margin: 2px;
+    margin: 1px;
+    font-size: 13px;
+
     
 }
 
-
-#invitelist .fa-trash-alt {
-    background-color: rgb(158, 0, 0);
+.fa-check-square {
+    
     border-radius: 15%;
-    color: white;
+    margin: 1px;
+    font-size: 13px;
+    margin-left: 1em;
+    bac
+
+    
 }
+
 
 
 
@@ -107,7 +111,7 @@ body h1{
         padding-bottom: 17em;
     }
 
-    #list input{
+    #container input{
 font-size: 0.9em;
    
 } 
